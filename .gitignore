@@ -1,0 +1,51 @@
+# Python-specific ignores
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*/__pycache__
+
+# Virtual environments
+env/
+venv/
+.venv/
+.env/
+htmlcov/
+
+# Distribution / build products
+dist/
+build/
+*.egg-info/
+.cache/
+
+# Project-specific temporary files
+# Mock user database for auth template (do not commit!)
+templates/auth/backend/users.json
+
+# Environment variables
+.env
+.flaskenv
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.project
+.pydevproject
+.settings/
+
+# macOS ignores
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows ignores
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Crash logs
+*.pyc.crash

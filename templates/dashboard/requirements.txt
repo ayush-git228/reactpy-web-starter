@@ -1,0 +1,4 @@
+reactpy
+pandas
+plotly
+python-multipart

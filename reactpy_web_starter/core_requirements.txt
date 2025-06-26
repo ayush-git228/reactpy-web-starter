@@ -1,0 +1,7 @@
+reactpy
+aiohttp
+python-dotenv
+pyjwt
+passlib[argon2]
+pandas
+plotly

@@ -1,0 +1,6 @@
+reactpy
+jwt
+PyJWT
+python-dotenv
+passlib
+argon2_cffi

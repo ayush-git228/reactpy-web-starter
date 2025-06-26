@@ -1,0 +1,29 @@
+name: Publish Python Package to PyPI
+
+on:
+  release:
+    types: [published] # Trigger on new GitHub release
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x' # Use the latest Python 3 version
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install setuptools wheel build twine
+          # Install core requirements and all template requirements
+          pip install -r core_requirements.txt
+          for d in templates/*/; do pip install -r "$d/requirements.txt" || true; done
+      - name: Build package
+        run: python -m build
+      - name: Publish package to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          user: __token__
+          password: ${{ secrets.PYPI_API_TOKEN }} # This line is correct and securely accesses your GitHub secret

@@ -1,0 +1,8 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="200" height="200" rx="40" fill="#1A202C"/>
+<path d="M70 60 L130 60 L150 100 L130 140 L70 140 L50 100 L70 60 Z" fill="#4299E1" stroke="#2B6CB0" stroke-width="5"/>
+<circle cx="100" cy="100" r="30" fill="#EDF2F7" stroke="#CBD5E0" stroke-width="3"/>
+<path d="M100 80 L100 120 M80 100 L120 100" stroke="#4299E1" stroke-width="5" stroke-linecap="round"/>
+<text x="100" y="110" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2B6CB0" text-anchor="middle" dominant-baseline="middle">Py</text>
+<text x="100" y="165" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#EDF2F7" text-anchor="middle">ReactPy</text>
+</svg>
