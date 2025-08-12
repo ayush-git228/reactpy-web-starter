@@ -32,26 +32,36 @@ Make sure you have Python 3+ and pip. Using a virtual environment is recommended
 
 Install with:
 
-text
+
 pip install reactpy-web-starter
+
+
 Create a new project:
 
-text
+
 reactpy-web-starter create <template-name> <your-project-name>
+
+
 Example:
 
-text
+
 reactpy-web-starter create dashboard my-data-app
+
+
 Navigate to your project, install dependencies, and run:
 
-text
+
 cd my-data-app
 pip install -r requirements.txt
 python main.py
+
+
 To preview a template without creating a project:
 
-text
+
 reactpy-web-starter run <template-name>
+
+
 
 Publishing Your Project:
 
