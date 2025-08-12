@@ -1,5 +1,7 @@
 ReactPy Web Starter
 
+---
+
 Key Benefits:
 
 Write your entire app (backend and frontend) in Python—no JavaScript required.
@@ -12,9 +14,13 @@ Easily integrate with Python libraries for data analysis (Pandas, NumPy), visual
 
 Includes production-ready templates with secure authentication, robust data handling, and clean component structures.
 
+----
+
 How It Works:
 
 ReactPy manages a Virtual DOM (VDOM) in Python. When your Python state changes, ReactPy efficiently updates the browser UI, similar to how React works in JavaScript, but using Python instead.
+
+---
 
 Included Templates:
 
@@ -26,15 +32,20 @@ dashboard: Interactive data dashboard (file upload, tables, Plotly charts).
 
 theming: Light/dark mode and UI customization using Tailwind CSS.
 
+---
+
 Getting Started:
 
 Make sure you have Python 3+ and pip. Using a virtual environment is recommended.
+
+---
 
 Install with:
 
 
 pip install reactpy-web-starter
 
+---
 
 Create a new project:
 
@@ -42,32 +53,39 @@ Create a new project:
 reactpy-web-starter create <template-name> <your-project-name>
 
 
+
 Example:
 
 
 reactpy-web-starter create dashboard my-data-app
 
+---
 
 Navigate to your project, install dependencies, and run:
 
 
 cd my-data-app
 pip install -r requirements.txt
+
+
 python main.py
 
+---
 
 To preview a template without creating a project:
 
 
 reactpy-web-starter run <template-name>
 
-
+---
 
 Publishing Your Project:
 
 Prepare your pyproject.toml and setup.py with correct metadata and dependencies.
 
 Build and upload your package using build and twine.
+
+---
 
 Contributing:
 
